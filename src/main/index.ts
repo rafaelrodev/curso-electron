@@ -18,7 +18,7 @@ function createWindow(): void {
     backgroundColor: '#030712',
     ...(process.platform === 'linux'
       ? {
-          icon: path.join(__dirname, '../../build/icon.png'),
+          icon: path.join(__dirname, 'resources', 'icon.png'),
         }
       : process.platform === 'win32' && {
           icon: path.join(__dirname, 'resources', 'icon.png'),
